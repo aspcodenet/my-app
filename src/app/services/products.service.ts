@@ -13,4 +13,9 @@ export class ProductsService {
   public getData() : Observable<Product[]> {
     return this.http.get<Product[]>('https://fakestoreapi.com/products')
   }
+
+  public getSingle(id:string) : Observable<Product> {
+    return this.http.get<Product>('https://fakestoreapi.com/products/' + id)
+  }
+
 }
