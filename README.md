@@ -8,7 +8,8 @@ index.html  ``` <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.cs
 
 
 I app.component.html - rensa och
-```<header class="siteheader">
+```
+<header class="siteheader">
   <div class="logo">
       <i class='bx bxs-cat logoicon'></i>
       Cat<span class="logopart2">Lovers</span>                
@@ -36,7 +37,9 @@ ng generate component header
   selector: 'app-header',  <------ detta blir taggen I app.component.html
 
 Kom ihåg IMPORT I app.-component.ts
-  ```imports: [RouterOutlet,HeaderComponent, FooterComponent],```
+```
+imports: [RouterOutlet,HeaderComponent, FooterComponent],
+```
 
 ng generate component footer
 ng generate component home
@@ -46,11 +49,15 @@ Lägg till route för home
 
 ng generate component products
  
-        ```<li><a routerLink="products" class="headeranchor" routerLinkActive="active" >Products</a></li>```
+```
+        <li><a routerLink="products" class="headeranchor" routerLinkActive="active" >Products</a></li>
+```
  
 
 OBS I header 
-  imports: [RouterLink, RouterLinkActive],
+```
+Imports: [RouterLink, RouterLinkActive],
+```
 
 
 
