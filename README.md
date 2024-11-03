@@ -4,11 +4,11 @@ ng new my-app
 
 copy https://github.com/aspcodenet/reacteventsochstate1/blob/main/catshop/src/index.css -> styles.css
 
-index.html   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+index.html  ``` <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>```
 
 
 I app.component.html - rensa och
-<header class="siteheader">
+```<header class="siteheader">
   <div class="logo">
       <i class='bx bxs-cat logoicon'></i>
       Cat<span class="logopart2">Lovers</span>                
@@ -22,7 +22,7 @@ I app.component.html - rensa och
   </nav>
 </header>
 <router-outlet />
-<footer>(C) Whatever</footer>
+<footer>(C) Whatever</footer>*** 
 
 
 
@@ -35,7 +35,7 @@ ng generate component header
   selector: 'app-header',  <------ detta blir taggen I app.component.html
 
 Kom ihåg IMPORT I app.-component.ts
-  imports: [RouterOutlet,HeaderComponent, FooterComponent],
+  ```imports: [RouterOutlet,HeaderComponent, FooterComponent],```
 
 ng generate component footer
 ng generate component home
@@ -45,7 +45,7 @@ Lägg till route för home
 
 ng generate component products
  
-        <li><a routerLink="products" class="headeranchor" routerLinkActive="active" >Products</a></li>
+        ```<li><a routerLink="products" class="headeranchor" routerLinkActive="active" >Products</a></li>```
  
 
 OBS I header 
