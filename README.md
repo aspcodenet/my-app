@@ -22,7 +22,7 @@ I app.component.html - rensa och
   </nav>
 </header>
 <router-outlet />
-<footer>(C) Whatever</footer>*** 
+<footer>(C) Whatever</footer>```
 
 
 
